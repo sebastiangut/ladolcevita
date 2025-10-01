@@ -202,26 +202,26 @@ const MenuItemComponent: React.FC<MenuItemComponentProps> = ({ item, itemIndex }
   return (
     <div 
       ref={elementRef as React.RefObject<HTMLDivElement>}
-      className={`bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-sm hover:shadow-lg transition-all duration-500 ease-out menu-item-hover border border-amber-100/50 ${
+      className={`bg-white/90 backdrop-blur-sm rounded-xl shadow-sm hover:shadow-xl transition-all duration-500 ease-out menu-item-hover border border-amber-200/50 overflow-hidden ${
         getAnimationClasses()
-      } ${item.image ? 'flex flex-col' : ''}`}
+      } ${item.image ? 'flex flex-col' : 'p-6'}`}
       style={{ 
         transitionDelay: `${itemIndex * 50}ms`
       }}
     >
-      {/* Image for pizza items */}
+      {/* Image for pizza items - Full image display */}
       {item.image && (
-        <div className="mb-4 overflow-hidden rounded-lg relative h-64">
+        <div className="mb-0 overflow-hidden relative">
           <img 
             src={item.image} 
             alt={item.name}
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-auto object-contain bg-white"
             loading="lazy"
           />
         </div>
       )}
       
-      <div className="flex justify-between items-start">
+      <div className={`flex justify-between items-start ${item.image ? 'p-6 pt-4' : ''}`}>
         <div className="flex-1 pr-4">
           <h3 className="text-xl md:text-2xl font-bold text-gray-900 font-serif leading-tight mb-2">
             {item.name}
