@@ -1,3 +1,39 @@
+// Import pizza images
+import pizza01 from '/images/pizza/01. Pizza Salami ( sos roșii, mozzarella, salam, măsline )_web.png';
+import pizza02 from '/images/pizza/02. Pizza Funghi ( sos roșii, mozzarella, ciuperci )_web.png';
+import pizza03 from '/images/pizza/03. Pizza Capriciosa ( sos roșii, oregano, mozzarella, șuncă, salam )_web.png';
+import pizza04 from '/images/pizza/04. Pizza Tărănească ( sos roșii, mozzarella, bacon, ceapă, porumb )_web.png';
+import pizza05 from '/images/pizza/05. Pizza Salame Piccante ( sos roșii, mozzarella, salam picant )_web.png';
+import pizza06 from '/images/pizza/06. Pizza Diavola ( sos roșii, oregano, peperoncini, mozzarella, salam picant )_web.png';
+import pizza07 from '/images/pizza/07. Pizza Prosciutto Salami Funghi ( sos roșii, mozzarella, șuncă, salam, ciuperci )_web.png';
+import pizza08 from '/images/pizza/08. Pizza Prosciutto e Salami ( sos roșii, mozzarella, șuncă, salam )_web.png';
+import pizza09 from '/images/pizza/09. Pizza Prosciutto ( sos roșii, mozzarella, șuncă, măsline )_web.png';
+import pizza10 from '/images/pizza/10. Pizza Montana ( sos roșii, mozzarella, șuncă, bacon, ciuperci )_web.png';
+import pizza11 from '/images/pizza/11. Pizza Prosciutto e Funghi ( sos roșii, mozzarella, șuncă, ciuperci, măsline )_web.png';
+import pizza12 from '/images/pizza/12. Pizza Funghi con Porcini ( sos roșii, mozzarella, șuncă, funghi con porcini, măsline )_web.png';
+import pizza13 from '/images/pizza/13. Pizza California ( sos roșii, mozzarella, piept de pui, ardei, porumb )_web.png';
+import pizza14 from '/images/pizza/14. Pizza Quattro Stagioni ( sos de roșii, mozzarella, șuncă, ciuperci, anghinare, măsline felii )_web.png';
+import pizza15 from '/images/pizza/15. Pizza Quattro Formaggi ( sos roșii, mozzarella, cașcaval afumat, brie, gorgonzola )_web.png';
+import pizza16 from '/images/pizza/16. Pizza Prosciutto Crudo ( sos roșii, mozzarella, crudo )_web.png';
+import pizza17 from '/images/pizza/17. Pizza Gorgo e Crudo ( sos roșii, mozzarella, gorgonzola, crudo )_web.png';
+import pizza18 from '/images/pizza/18. Pizza Crudo e Rucola ( sos roșii, mozzarella, crudo, rucola )_web.png';
+import pizza19 from '/images/pizza/19. Pizza Crudo e Brie ( sos roșii, mozzarella, brie, crudo )_web.png';
+import pizza20 from '/images/pizza/20. Pizza Speck ( sos roșii, mozzarella, speck )_web.png';
+import pizza21 from '/images/pizza/21. Pizza Calabrese ( sos roșii, mozzarella, salam picant, gorgonzola, anghinare )_web.png';
+import pizza22 from '/images/pizza/22. Pizza Canibale ( sos roșii, mozzarella, șuncă, bacon, salam, carnați )_web.png';
+import pizza23 from '/images/pizza/23. Pizza La Dolce Vita ( sos roșii, mozzarella, șuncă, salam, gorgonzola )_web.png';
+import pizza24 from '/images/pizza/24. Pizza Carbonara ( sos alb smantană cu ou, mozzarella, bacon, branză dură )_web.png';
+import pizza25 from '/images/pizza/25. Pizza Tartufata ( sos roșii, cremă de ciuperci cu trufe, mozzarella, speck, roșii proaspete )_web.png';
+import pizza26 from '/images/pizza/26. Pizza Mascarpone ( sos roșii, mozzarella, mascarpone, carnați, ardei, roșii )_web.png';
+import pizza27 from '/images/pizza/27. Pizza Sfiziosa (sos roșii, mozzarella, bacon, ceapă, parmezan )_web.png';
+import pizza28 from '/images/pizza/28. Pizza Tonno ( sos roșii, oregano, mozzarella, ton )_web.png';
+import pizza29 from '/images/pizza/29. Pizza Palermo ( sos roșii, mozzarella, ton, ceapă, masline )_web.png';
+import pizza30 from '/images/pizza/30. Pizza Romană ( sos roșii, busuioc, mozzarella, anșoa, capere )_web.png';
+import pizza31 from '/images/pizza/31. Pizza Albă - Pizza Brie e Bacon ( mozzarella, brie, bacon, roșii proaspete )_web.png';
+import pizza32 from '/images/pizza/32. Pizza Roșie - Pizza Siciliană ( sos roșii, busuioc, anșoa, roșii proaspete )_web.png';
+import pizza33 from '/images/pizza/33. Pizza Margherita ( sos roșii, busuioc, mozzarella, roșii proaspete )_web.png';
+import pizza34 from '/images/pizza/34. Pizza de Post - Vegetală ( sos roșii, ciuperci, ardei, porumb, măsline )_web.png';
+
 export interface MenuItem {
   name: string;
   description: string;
@@ -1090,238 +1126,238 @@ export const menuData: MenuSection[] = [
         description: "sos roșii, mozzarella, salam, măsline",
         weight: "500g",
         price: "32,90 lei",
-        image: "/images/pizza/01. Pizza Salami ( sos roșii, mozzarella, salam, măsline )_web.png"
+        image: pizza01
       },
       {
         name: "Funghi",
         description: "sos roșii, mozzarella, ciuperci",
         weight: "500g", 
         price: "30,90 lei",
-        image: "/images/pizza/02. Pizza Funghi ( sos roșii, mozzarella, ciuperci )_web.png"
+        image: pizza02
       },
       {
         name: "Capriciosa",
         description: "sos roșii, oregano, mozzarella, șuncă, salam",
         weight: "500g",
         price: "32,90 lei",
-        image: "/images/pizza/03. Pizza Capriciosa ( sos roșii, oregano, mozzarella, șuncă, salam )_web.png"
+        image: pizza03
       },
       {
         name: "Țărănească",
         description: "sos roșii, mozzarella, bacon, ceapă, porumb",
         weight: "550g",
         price: "32,90 lei",
-        image: "/images/pizza/04. Pizza Tărănească ( sos roșii, mozzarella, bacon, ceapă, porumb )_web.png"
+        image: pizza04
       },
       {
         name: "Salame Piccante",
         description: "sos roșii, mozzarella, salam picant",
         weight: "500g",
         price: "32,90 lei",
-        image: "/images/pizza/05. Pizza Salame Piccante ( sos roșii, mozzarella, salam picant )_web.png"
+        image: pizza05
       },
       {
         name: "Diavola",
         description: "sos roșii, oregano, peperoncini, mozzarella, salam picant",
         weight: "500g",
         price: "32,90 lei",
-        image: "/images/pizza/06. Pizza Diavola ( sos roșii, oregano, peperoncini, mozzarella, salam picant )_web.png"
+        image: pizza06
       },
       {
         name: "Prosciutto Salami Funghi",
         description: "sos roșii, mozzarella, șuncă, salam, ciuperci",
         weight: "550g",
         price: "32,90 lei",
-        image: "/images/pizza/07. Pizza Prosciutto Salami Funghi ( sos roșii, mozzarella, șuncă, salam, ciuperci )_web.png"
+        image: pizza07
       },
       {
         name: "Prosciutto e Salami",
         description: "sos roșii, mozzarella, șuncă, salam",
         weight: "550g",
         price: "32,90 lei",
-        image: "/images/pizza/08. Pizza Prosciutto e Salami ( sos roșii, mozzarella, șuncă, salam )_web.png"
+        image: pizza08
       },
       {
         name: "Prosciutto",
         description: "sos roșii, mozzarella, șuncă, măsline",
         weight: "600g",
         price: "32,90 lei",
-        image: "/images/pizza/09. Pizza Prosciutto ( sos roșii, mozzarella, șuncă, măsline )_web.png"
+        image: pizza09
       },
       {
         name: "Montana",
         description: "sos roșii, mozzarella, șuncă, bacon, ciuperci",
         weight: "550g",
         price: "32,90 lei",
-        image: "/images/pizza/10. Pizza Montana ( sos roșii, mozzarella, șuncă, bacon, ciuperci )_web.png"
+        image: pizza10
       },
       {
         name: "Prosciutto e Funghi",
         description: "sos roșii, mozzarella, șuncă, ciuperci, măsline",
         weight: "550g",
         price: "32,90 lei",
-        image: "/images/pizza/11. Pizza Prosciutto e Funghi ( sos roșii, mozzarella, șuncă, ciuperci, măsline )_web.png"
+        image: pizza11
       },
       {
         name: "Funghi con Porcini",
         description: "sos roșii, mozzarella, șuncă, funghi con porcini, măsline",
         weight: "550g",
         price: "32,90 lei",
-        image: "/images/pizza/12. Pizza Funghi con Porcini ( sos roșii, mozzarella, șuncă, funghi con porcini, măsline )_web.png"
+        image: pizza12
       },
       {
         name: "California",
         description: "sos roșii, mozzarella, piept de pui, ardei, porumb",
         weight: "500g",
         price: "32,90 lei",
-        image: "/images/pizza/13. Pizza California ( sos roșii, mozzarella, piept de pui, ardei, porumb )_web.png"
+        image: pizza13
       },
       {
         name: "Quattro Stagioni",
         description: "sos de roșii, mozzarella, șuncă, ciuperci, anghinare, măsline felii",
         weight: "500g",
         price: "32,90 lei",
-        image: "/images/pizza/14. Pizza Quattro Stagioni ( sos de roșii, mozzarella, șuncă, ciuperci, anghinare, măsline felii )_web.png"
+        image: pizza14
       },
       {
         name: "Quattro Formaggi",
         description: "sos roșii, mozzarella, cașcaval afumat, brie, gorgonzola",
         weight: "550g",
         price: "34,90 lei",
-        image: "/images/pizza/15. Pizza Quattro Formaggi ( sos roșii, mozzarella, cașcaval afumat, brie, gorgonzola )_web.png"
+        image: pizza15
       },
       {
         name: "Prosciutto Crudo",
         description: "sos roșii, mozzarella, crudo",
         weight: "500g",
         price: "34,90 lei",
-        image: "/images/pizza/16. Pizza Prosciutto Crudo ( sos roșii, mozzarella, crudo )_web.png"
+        image: pizza16
       },
       {
         name: "Gorgo e Crudo",
         description: "sos roșii, mozzarella, gorgonzola, crudo",
         weight: "500g",
         price: "37,90 lei",
-        image: "/images/pizza/17. Pizza Gorgo e Crudo ( sos roșii, mozzarella, gorgonzola, crudo )_web.png"
+        image: pizza17
       },
       {
         name: "Crudo e Rucola",
         description: "sos roșii, mozzarella, crudo, rucola",
         weight: "500g",
         price: "34,90 lei",
-        image: "/images/pizza/18. Pizza Crudo e Rucola ( sos roșii, mozzarella, crudo, rucola )_web.png"
+        image: pizza18
       },
       {
         name: "Crudo e Brie",
         description: "sos roșii, mozzarella, brie, crudo",
         weight: "500g",
         price: "37,90 lei",
-        image: "/images/pizza/19. Pizza Crudo e Brie ( sos roșii, mozzarella, brie, crudo )_web.png"
+        image: pizza19
       },
       {
         name: "Speck",
         description: "sos roșii, mozzarella, speck",
         weight: "500g",
         price: "37,90 lei",
-        image: "/images/pizza/20. Pizza Speck ( sos roșii, mozzarella, speck )_web.png"
+        image: pizza20
       },
       {
         name: "Calabrese",
         description: "sos roșii, mozzarella, salam picant, gorgonzola, anghinare",
         weight: "550g",
         price: "34,90 lei",
-        image: "/images/pizza/21. Pizza Calabrese ( sos roșii, mozzarella, salam picant, gorgonzola, anghinare )_web.png"
+        image: pizza21
       },
       {
         name: "Canibale",
         description: "sos roșii, mozzarella, șuncă, bacon, salam, carnați",
         weight: "600g",
         price: "34,90 lei",
-        image: "/images/pizza/22. Pizza Canibale ( sos roșii, mozzarella, șuncă, bacon, salam, carnați )_web.png"
+        image: pizza22
       },
       {
         name: "La Dolce Vita",
         description: "sos roșii, mozzarella, șuncă, salam, gorgonzola",
         weight: "600g",
         price: "34,90 lei",
-        image: "/images/pizza/23. Pizza La Dolce Vita ( sos roșii, mozzarella, șuncă, salam, gorgonzola )_web.png"
+        image: pizza23
       },
       {
         name: "Carbonara",
         description: "sos alb smantană cu ou, mozzarella, bacon, branză dură",
         weight: "550g",
         price: "37,90 lei",
-        image: "/images/pizza/24. Pizza Carbonara ( sos alb smantană cu ou, mozzarella, bacon, branză dură )_web.png"
+        image: pizza24
       },
       {
         name: "Tartufata",
         description: "sos roșii, cremă de ciuperci cu trufe, mozzarella, speck, roșii proaspete",
         weight: "500g",
         price: "34,90 lei",
-        image: "/images/pizza/25. Pizza Tartufata ( sos roșii, cremă de ciuperci cu trufe, mozzarella, speck, roșii proaspete )_web.png"
+        image: pizza25
       },
       {
         name: "Mascarpone",
         description: "sos roșii, mozzarella, mascarpone, carnați, ardei, roșii",
         weight: "500g",
         price: "32,90 lei",
-        image: "/images/pizza/26. Pizza Mascarpone ( sos roșii, mozzarella, mascarpone, carnați, ardei, roșii )_web.png"
+        image: pizza26
       },
       {
         name: "Sfiziosa",
         description: "sos roșii, mozzarella, bacon, ceapă, parmezan",
         weight: "500g",
         price: "32,90 lei",
-        image: "/images/pizza/27. Pizza Sfiziosa (sos roșii, mozzarella, bacon, ceapă, parmezan )_web.png"
+        image: pizza27
       },
       {
         name: "Tonno",
         description: "sos roșii, oregano, mozzarella, ton",
         weight: "600g",
         price: "37,90 lei",
-        image: "/images/pizza/28. Pizza Tonno ( sos roșii, oregano, mozzarella, ton )_web.png"
+        image: pizza28
       },
       {
         name: "Palermo",
         description: "sos roșii, mozzarella, ton, ceapă, masline",
         weight: "600g",
         price: "37,90 lei",
-        image: "/images/pizza/29. Pizza Palermo ( sos roșii, mozzarella, ton, ceapă, masline )_web.png"
+        image: pizza29
       },
       {
         name: "Romana",
         description: "sos roșii, busuioc, mozzarella, anșoa, capere",
         weight: "400g",
         price: "34,90 lei",
-        image: "/images/pizza/30. Pizza Romană ( sos roșii, busuioc, mozzarella, anșoa, capere )_web.png"
+        image: pizza30
       },
       {
         name: "Pizza Albă Brie e Bacon",
         description: "mozzarella, brie, bacon, roșii proaspete",
         weight: "500g",
         price: "32,90 lei",
-        image: "/images/pizza/31. Pizza Albă - Pizza Brie e Bacon ( mozzarella, brie, bacon, roșii proaspete )_web.png"
+        image: pizza31
       },
       {
         name: "Pizza Roșie Siciliană",
         description: "sos roșii, busuioc, anșoa, roșii proaspete",
         weight: "400g",
         price: "32,90 lei",
-        image: "/images/pizza/32. Pizza Roșie - Pizza Siciliană ( sos roșii, busuioc, anșoa, roșii proaspete )_web.png"
+        image: pizza32
       },
       {
         name: "Margherita",
         description: "sos roșii, busuioc, mozzarella, roșii proaspete",
         weight: "450g",
         price: "29,90 lei",
-        image: "/images/pizza/33. Pizza Margherita ( sos roșii, busuioc, mozzarella, roșii proaspete )_web.png"
+        image: pizza33
       },
       {
         name: "Pizza de Post Vegetală",
         description: "sos roșii, ciuperci, ardei, porumb, măsline",
         weight: "400g",
         price: "29,90 lei",
-        image: "/images/pizza/34. Pizza de Post - Vegetală ( sos roșii, ciuperci, ardei, porumb, măsline )_web.png"
+        image: pizza34
       }
     ]
   }
