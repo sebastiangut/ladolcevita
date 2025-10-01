@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
 
-// Use public directory paths for images
-const cineImage = '/images/splash/01-cine-removebg-preview.png';
-const manancaImage = '/images/splash/02-mananca-removebg-preview.png';
-const bine1Image = '/images/splash/03-bine-removebg-preview.png';
-const traiesteImage = '/images/splash/04-traieste-removebg-preview.png';
-const bine2Image = '/images/splash/05-bine-removebg-preview.png';
-const logoImage = '/images/splash/07-ladolcevita-removebg-preview.png';
+// Import images directly from assets
+import cineImage from '../assets/splash/01-cine-removebg-preview.png';
+import manancaImage from '../assets/splash/02-mananca-removebg-preview.png';
+import bine1Image from '../assets/splash/03-bine-removebg-preview.png';
+import traiesteImage from '../assets/splash/04-traieste-removebg-preview.png';
+import bine2Image from '../assets/splash/05-bine-removebg-preview.png';
+import logoImage from '../assets/splash/07-ladolcevita-removebg-preview.png';
 
 interface SplashScreenProps {
   onComplete: () => void;
