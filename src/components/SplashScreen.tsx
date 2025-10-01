@@ -22,6 +22,15 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
   const [showLogo, setShowLogo] = useState(false);
   const timersRef = useRef<NodeJS.Timeout[]>([]);
 
+  // Debug function for image loading
+  const handleImageLoad = (imageName: string) => {
+    console.log(`✅ Splash image loaded: ${imageName}`);
+  };
+
+  const handleImageError = (imageName: string, src: string) => {
+    console.error(`❌ Failed to load splash image: ${imageName} from ${src}`);
+  };
+
   useEffect(() => {
     const addTimer = (callback: () => void, delay: number) => {
       const timer = setTimeout(callback, delay);
@@ -95,6 +104,8 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
                   src={cineImage} 
                   alt="CINE"
                   className="animate-fadeInSmooth h-24 md:h-32 object-contain"
+                  onLoad={() => handleImageLoad('CINE')}
+                  onError={() => handleImageError('CINE', cineImage)}
                 />
               )}
               {showMananca && (
@@ -102,6 +113,8 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
                   src={manancaImage} 
                   alt="MĂNÂNCĂ"
                   className="animate-fadeInSmooth h-24 md:h-32 object-contain"
+                  onLoad={() => handleImageLoad('MĂNÂNCĂ')}
+                  onError={() => handleImageError('MĂNÂNCĂ', manancaImage)}
                 />
               )}
               {showBine1 && (
@@ -109,6 +122,8 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
                   src={bine1Image} 
                   alt="BINE"
                   className="animate-fadeInSmooth h-24 md:h-32 object-contain"
+                  onLoad={() => handleImageLoad('BINE-1')}
+                  onError={() => handleImageError('BINE-1', bine1Image)}
                 />
               )}
             </div>
@@ -124,6 +139,8 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
                   src={traiesteImage} 
                   alt="TRĂIEȘTE"
                   className="animate-fadeInSmooth h-24 md:h-32 object-contain"
+                  onLoad={() => handleImageLoad('TRĂIEȘTE')}
+                  onError={() => handleImageError('TRĂIEȘTE', traiesteImage)}
                 />
               )}
               {showBine2 && (
@@ -131,6 +148,8 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
                   src={bine2Image} 
                   alt="BINE"
                   className="animate-fadeInSmooth h-24 md:h-32 object-contain"
+                  onLoad={() => handleImageLoad('BINE-2')}
+                  onError={() => handleImageError('BINE-2', bine2Image)}
                 />
               )}
             </div>
@@ -146,6 +165,8 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
                 alt="La Dolce Vita"
                 className="animate-logoRevealSmooth h-28 md:h-32 object-contain"
                 style={{ willChange: 'transform, opacity' }}
+                onLoad={() => handleImageLoad('LOGO')}
+                onError={() => handleImageError('LOGO', logoImage)}
               />
             )}
           </div>
