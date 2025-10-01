@@ -7,7 +7,7 @@ const isProd = process.env.BUILD_MODE === 'prod'
 const isGitHubPages = process.env.GITHUB_PAGES === 'true'
 
 export default defineConfig({
-  base: isGitHubPages ? '/ladolcevita/' : '/',
+  base: isGitHubPages ? '/ladolcevita/' : './',
   plugins: [
     react(), 
     sourceIdentifierPlugin({
