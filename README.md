@@ -1,3 +1,15 @@
+# La Dolce Vita
+
+A restaurant website built with React, TypeScript, and Vite.
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions.
+
+The live site can be accessed at: https://sebastiangut.github.io/ladolcevita/
+
+## Development Setup
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
