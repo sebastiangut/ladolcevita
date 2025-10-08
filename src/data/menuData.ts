@@ -1072,59 +1072,6 @@ export const menuData: MenuSection[] = [
         ]
       },
       {
-        title: "BAUTURI ALCOOLICE",
-        items: [
-          {
-            name: "Aperitive",
-            description: "",
-            weight: "50 ml",
-            price: "N/A"
-          },
-          {
-            name: "Lichior",
-            description: "",
-            weight: "50 ml",
-            price: "N/A"
-          },
-          {
-            name: "Rum",
-            description: "",
-            weight: "50 ml",
-            price: "N/A"
-          },
-          {
-            name: "Vodka",
-            description: "",
-            weight: "50 ml",
-            price: "N/A"
-          },
-          {
-            name: "Whisky",
-            description: "",
-            weight: "50 ml",
-            price: "N/A"
-          },
-          {
-            name: "Gin",
-            description: "",
-            weight: "50 ml",
-            price: "N/A"
-          },
-          {
-            name: "Tequila",
-            description: "",
-            weight: "50 ml",
-            price: "N/A"
-          },
-          {
-            name: "Cognac",
-            description: "",
-            weight: "50 ml",
-            price: "N/A"
-          }
-        ]
-      },
-      {
         title: "APERITIVE",
         items: [
           {
