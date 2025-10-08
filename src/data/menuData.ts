@@ -504,7 +504,7 @@ export const menuData: MenuSection[] = [
           },
           {
             name: "Espresso Dopio",
-            description: "Espresso scurt dublu",
+            description: "",
             weight: "80 ml",
             price: "11,80 lei"
           },
@@ -516,7 +516,7 @@ export const menuData: MenuSection[] = [
           },
           {
             name: "Espresso American",
-            description: "Espresso lung, apa calda",
+            description: "",
             weight: "100 ml",
             price: "5,90 lei"
           },
@@ -527,64 +527,87 @@ export const menuData: MenuSection[] = [
             price: "6,90 lei"
           },
           {
-            name: "Café To Go",
-            description: "Espresso scurt/lung, pahar unica folosinta",
+            name: "Cafe To Go",
+            description: "",
             weight: "40/80 ml",
             price: "6,90 lei"
           },
           {
-            name: "Café Latte",
-            description: "Espresso lung, lapte",
+            name: "Cafe Latte",
+            description: "",
             weight: "180 ml",
             price: "6,90 lei"
           },
           {
-            name: "Café Latte Machiatto",
-            description: "Espresso scurt, lapte, spuma lapte",
+            name: "Cafe Latte Machiatto",
+            description: "",
             weight: "140 ml",
             price: "8,90 lei"
           },
           {
-            name: "Café Bombon",
-            description: "Espresso scurt, lapte condensat",
+            name: "Cafe Bombon",
+            description: "",
             weight: "40 ml",
             price: "6,90 lei"
           },
           {
-            name: "Café Ice",
-            description: "Espresso lung, gheata, lapte, sirop de ciocolata",
+            name: "Cafe Ice",
+            description: "",
             weight: "200 ml",
             price: "9,90 lei"
           },
           {
-            name: "Frappe",
-            description: "Ness, lapte, gheata, topping",
+            name: "Frappe Ness",
+            description: "",
             weight: "200 ml",
             price: "9,90 lei"
           },
           {
             name: "Frappe Vanilie",
-            description: "Ness, lapte, gheata, vanilie",
+            description: "",
             weight: "200 ml",
             price: "9,90 lei"
           },
           {
             name: "Cappuccino Vienez",
-            description: "Espresso scurt, crema lapte, frisca",
+            description: "",
             weight: "120 ml",
             price: "8,90 lei"
           },
           {
             name: "Cappuccino Italian",
-            description: "Espresso scurt, crema lapte",
+            description: "",
             weight: "120 ml",
             price: "8,90 lei"
           },
           {
             name: "Cappuccino cu Arome",
-            description: "Espresso scurt, crema lapte, arome la alegere: alune, cocos, vanilie, ciocolata, fistic, caramel, scortisoara",
+            description: "",
             weight: "120 ml",
             price: "8,90 lei"
+          }
+        ]
+      },
+      {
+        title: "CAFEA CU ALCOOL",
+        items: [
+          {
+            name: "Irish Cafe",
+            description: "",
+            weight: "120 ml",
+            price: "12,90 lei"
+          },
+          {
+            name: "Mexican Cafe",
+            description: "",
+            weight: "120 ml",
+            price: "12,90 lei"
+          },
+          {
+            name: "Baileys Cafe",
+            description: "",
+            weight: "120 ml",
+            price: "12,90 lei"
           }
         ]
       },
@@ -593,19 +616,19 @@ export const menuData: MenuSection[] = [
         items: [
           {
             name: "Ciocolata Calda",
-            description: "Clasica, alba",
+            description: "",
             weight: "150 ml",
             price: "5,90 lei"
           },
           {
             name: "Ciocolata cu lapte",
-            description: "Clasica, alba, alune, rum",
+            description: "",
             weight: "150 ml",
             price: "7,90 lei"
           },
           {
             name: "Cappuccino Solubil",
-            description: "Clasic, alune, vanilie, rum",
+            description: "",
             weight: "150 ml",
             price: "5,90 lei"
           }
@@ -616,24 +639,30 @@ export const menuData: MenuSection[] = [
         items: [
           {
             name: "Ceai",
-            description: "Fructe de padure, menta, musetel, verde, negru, ghimbir, portocale, fructe tropicale",
+            description: "",
             weight: "200 ml",
             price: "5,90 lei"
           },
           {
             name: "Ice Tea",
-            description: "Menta, fructe de padure, verde, fructe tropicale",
+            description: "",
             weight: "300 ml",
             price: "6,90 lei"
+          },
+          {
+            name: "Miere",
+            description: "",
+            weight: "20 g",
+            price: "1,00 leu"
           }
         ]
       },
       {
-        title: "MILKSHAKES",
+        title: "MILK SHAKES",
         items: [
           {
             name: "Milkshake",
-            description: "Vanilie, banane, capsuni, ciocolata, passion fruit",
+            description: "",
             weight: "200 ml",
             price: "8,90 lei"
           }
@@ -643,16 +672,10 @@ export const menuData: MenuSection[] = [
         title: "SMOOTHIE",
         items: [
           {
-            name: "Smoothie cu pulpa de fructe",
-            description: "Litchi, fructul pasiunii, mar verde, cirese",
-            weight: "250 ml",
-            price: "9,90 lei"
-          },
-          {
             name: "Royal Strawberry",
             description: "",
-            weight: "200 ml",
-            price: "12,90 lei"
+            weight: "250 ml",
+            price: "9,90 lei"
           },
           {
             name: "Blueberry Energy",
@@ -702,8 +725,8 @@ export const menuData: MenuSection[] = [
             price: "7,90 lei"
           },
           {
-            name: "Fanta",
-            description: "Portocale, struguri",
+            name: "Fanta portocale, struguri",
+            description: "",
             weight: "250 ml",
             price: "7,90 lei"
           },
@@ -714,32 +737,32 @@ export const menuData: MenuSection[] = [
             price: "7,90 lei"
           },
           {
-            name: "Schweppes",
-            description: "Tonic, bitter lemon, mandarin, pink",
+            name: "Schweppes tonic, bitter lemon, mandarin, pink",
+            description: "",
             weight: "250 ml",
             price: "8,90 lei"
           },
           {
-            name: "Mountain Dew",
+            name: "Montain Dew",
             description: "",
             weight: "330 ml",
             price: "7,90 lei"
           },
           {
-            name: "Santal",
-            description: "Mere, portocale, ananas, fructe de padure, rodie",
+            name: "Santal mere, portocale, ananas, fructe de padure, rodie",
+            description: "",
             weight: "200 ml",
             price: "9,90 lei"
           },
           {
-            name: "Cappy Nectar",
-            description: "Portocale, piersici, pere, portocale rosii, visine",
+            name: "Cappy Nectar portocale, piersici, pere, portocale rosii, visine",
+            description: "",
             weight: "250 ml",
             price: "9,90 lei"
           },
           {
-            name: "Fuze Tea",
-            description: "Lamaie, piersici",
+            name: "Fuze Tea lamaie, piersici",
+            description: "",
             weight: "250 ml",
             price: "9,90 lei"
           },
@@ -754,6 +777,12 @@ export const menuData: MenuSection[] = [
             description: "",
             weight: "750 ml",
             price: "13,90 lei"
+          },
+          {
+            name: "Lamaie 2 felii",
+            description: "",
+            weight: "",
+            price: "1,00 leu"
           }
         ]
       },
@@ -761,8 +790,8 @@ export const menuData: MenuSection[] = [
         title: "SUCURI NATURALE",
         items: [
           {
-            name: "Fresh",
-            description: "Portocale, grapefruit, mere, morcovi",
+            name: "Fresh portocale, grapefruit, mere, morcovi",
+            description: "",
             weight: "200 ml",
             price: "11,90 lei"
           },
@@ -786,7 +815,31 @@ export const menuData: MenuSection[] = [
           },
           {
             name: "Limonada cu pulpa de fructe",
-            description: "Fructe de padure, capsuni, zmeura, piersici, kiwi",
+            description: "",
+            weight: "500 ml",
+            price: "14,90 lei"
+          },
+          {
+            name: "Fresh cu pulpa de fructe",
+            description: "",
+            weight: "250 ml",
+            price: "7,50 lei"
+          },
+          {
+            name: "Limonada cu catina",
+            description: "",
+            weight: "500 ml",
+            price: "14,90 lei"
+          },
+          {
+            name: "Limonada de lamaie cu sirop ghimbir",
+            description: "",
+            weight: "500 ml",
+            price: "14,90 lei"
+          },
+          {
+            name: "Limonada de lamaie cu sirop menta",
+            description: "",
             weight: "500 ml",
             price: "14,90 lei"
           }
@@ -806,6 +859,787 @@ export const menuData: MenuSection[] = [
             description: "",
             weight: "250 ml",
             price: "9,90 lei"
+          }
+        ]
+      },
+      {
+        title: "BERE",
+        items: [
+          {
+            name: "Ursus",
+            description: "",
+            weight: "500 ml",
+            price: "7,90 lei"
+          },
+          {
+            name: "Ciuc",
+            description: "",
+            weight: "500 ml",
+            price: "7,90 lei"
+          },
+          {
+            name: "Heineken Premium",
+            description: "",
+            weight: "330 ml",
+            price: "9,90 lei"
+          },
+          {
+            name: "Heineken",
+            description: "",
+            weight: "400 ml",
+            price: "9,90 lei"
+          },
+          {
+            name: "Heineken fara alcool",
+            description: "",
+            weight: "330 ml",
+            price: "9,90 lei"
+          },
+          {
+            name: "Corona",
+            description: "",
+            weight: "330 ml",
+            price: "11,90 lei"
+          }
+        ]
+      },
+      {
+        title: "CIDRU",
+        items: [
+          {
+            name: "Strongbow mere, fructe de padure",
+            description: "",
+            weight: "330 ml",
+            price: "9,90 lei"
+          }
+        ]
+      },
+      {
+        title: "LONG DRINKS",
+        items: [
+          {
+            name: "Whisky Cola",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Campari Orange",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Campari Lemon",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Cuba Libre",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Tequila Budda",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Vodka Orange",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Vodka Le General",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Vodka Lemon",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Vodka Apple",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Gin Tonic",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Gin Lemon",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Pina Colada",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          }
+        ]
+      },
+      {
+        title: "SHOTS",
+        items: [
+          {
+            name: "B 52",
+            description: "",
+            weight: "50 ml",
+            price: "14,90 lei"
+          },
+          {
+            name: "Kamikaze",
+            description: "",
+            weight: "25 ml x 2",
+            price: "14,90 lei"
+          },
+          {
+            name: "Disaronno Sour",
+            description: "",
+            weight: "25 ml",
+            price: "14,90 lei"
+          },
+          {
+            name: "Tequila Olmeca Gold",
+            description: "",
+            weight: "25 ml",
+            price: "4,90 lei"
+          },
+          {
+            name: "Jagermeister",
+            description: "",
+            weight: "25 ml",
+            price: "4,90 lei"
+          },
+          {
+            name: "Sambuca",
+            description: "",
+            weight: "25 ml",
+            price: "4,90 lei"
+          }
+        ]
+      },
+      {
+        title: "COCKTAILS NON ALCOOLIC",
+        items: [
+          {
+            name: "Fragola",
+            description: "",
+            weight: "400 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Rainbow",
+            description: "",
+            weight: "400 ml",
+            price: "19,90 lei"
+          }
+        ]
+      },
+      {
+        title: "GUMA ORBIT PASTILE",
+        items: [
+          {
+            name: "Guma Orbit Pastile",
+            description: "",
+            weight: "14g pac.",
+            price: "4,00 lei"
+          }
+        ]
+      },
+      {
+        title: "ALUNE",
+        items: [
+          {
+            name: "Alune",
+            description: "",
+            weight: "150 g pac.",
+            price: "9,90 lei"
+          }
+        ]
+      },
+      {
+        title: "BAUTURI ALCOOLICE",
+        items: [
+          {
+            name: "Aperitive",
+            description: "",
+            weight: "50 ml",
+            price: "N/A"
+          },
+          {
+            name: "Lichior",
+            description: "",
+            weight: "50 ml",
+            price: "N/A"
+          },
+          {
+            name: "Rum",
+            description: "",
+            weight: "50 ml",
+            price: "N/A"
+          },
+          {
+            name: "Vodka",
+            description: "",
+            weight: "50 ml",
+            price: "N/A"
+          },
+          {
+            name: "Whisky",
+            description: "",
+            weight: "50 ml",
+            price: "N/A"
+          },
+          {
+            name: "Gin",
+            description: "",
+            weight: "50 ml",
+            price: "N/A"
+          },
+          {
+            name: "Tequila",
+            description: "",
+            weight: "50 ml",
+            price: "N/A"
+          },
+          {
+            name: "Cognac",
+            description: "",
+            weight: "50 ml",
+            price: "N/A"
+          }
+        ]
+      },
+      {
+        title: "APERITIVE",
+        items: [
+          {
+            name: "Aperol",
+            description: "",
+            weight: "11%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Martini bianco, rosso",
+            description: "",
+            weight: "15%",
+            price: "6,90 lei"
+          },
+          {
+            name: "Campari",
+            description: "",
+            weight: "28,5%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Jagermeister",
+            description: "",
+            weight: "35%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Unicum",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Sambuca Molinari",
+            description: "",
+            weight: "42%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Horinca Maramures",
+            description: "",
+            weight: "50%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Absinth",
+            description: "",
+            weight: "70%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Pitu",
+            description: "",
+            weight: "38%",
+            price: "9,90 lei"
+          }
+        ]
+      },
+      {
+        title: "LICHIOR",
+        items: [
+          {
+            name: "Cointreau",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Bailey's",
+            description: "",
+            weight: "17%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Kahlua",
+            description: "",
+            weight: "20%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Disaronno Amaretto",
+            description: "",
+            weight: "28%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Peachtree",
+            description: "",
+            weight: "20%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Sierra Cafe",
+            description: "",
+            weight: "25%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Mangaroca",
+            description: "",
+            weight: "16%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Olmeca Chocolate",
+            description: "",
+            weight: "20%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Limoncello Isolabella",
+            description: "",
+            weight: "30%",
+            price: "9,90 lei"
+          }
+        ]
+      },
+      {
+        title: "RUM",
+        items: [
+          {
+            name: "Bacardi White",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Bacardi Gold",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Havana Club Gold",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Malibu",
+            description: "",
+            weight: "21%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Havana Club 7 Anos",
+            description: "",
+            weight: "40%",
+            price: "14,90 lei"
+          },
+          {
+            name: "Plantation Grande Reserve",
+            description: "",
+            weight: "40%",
+            price: "14,90 lei"
+          },
+          {
+            name: "Plantation Original Dark",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Zacapa 23 Anos",
+            description: "",
+            weight: "40%",
+            price: "34,90 lei"
+          },
+          {
+            name: "Captain Morgan Gold",
+            description: "",
+            weight: "35%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Captain Morgan White",
+            description: "",
+            weight: "37,5%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Brugal",
+            description: "",
+            weight: "38%",
+            price: "9,90 lei"
+          }
+        ]
+      },
+      {
+        title: "VODKA",
+        items: [
+          {
+            name: "Absolut Blue",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Finlandia",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Smirnoff Green Apple",
+            description: "",
+            weight: "37,5%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Absolut Lemon",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Ciroc",
+            description: "",
+            weight: "40%",
+            price: "14,90 lei"
+          },
+          {
+            name: "Grey Goose",
+            description: "",
+            weight: "40%",
+            price: "14,90 lei"
+          },
+          {
+            name: "Skyy",
+            description: "",
+            weight: "40%",
+            price: "14,90 lei"
+          },
+          {
+            name: "Stalinskaya",
+            description: "",
+            weight: "40%",
+            price: "7,90 lei"
+          }
+        ]
+      },
+      {
+        title: "WHISKY",
+        items: [
+          {
+            name: "Chivas Regal",
+            description: "",
+            weight: "40%",
+            price: "14,90 lei"
+          },
+          {
+            name: "Jack Daniel's",
+            description: "",
+            weight: "40%",
+            price: "11,90 lei"
+          },
+          {
+            name: "Jack Daniel's Single Barrel",
+            description: "",
+            weight: "45%",
+            price: "19,90 lei"
+          },
+          {
+            name: "Ballantine's",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Jim Bean",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "J&B",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Jameson",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Dimple",
+            description: "",
+            weight: "43%",
+            price: "19,90 lei"
+          },
+          {
+            name: "Macallan",
+            description: "",
+            weight: "40%",
+            price: "34,90 lei"
+          },
+          {
+            name: "Lagavulin 16 Ani",
+            description: "",
+            weight: "43%",
+            price: "49,90 lei"
+          },
+          {
+            name: "Glenfiddich 12 Ani",
+            description: "",
+            weight: "40%",
+            price: "14,90 lei"
+          },
+          {
+            name: "Johnnie Walker Red Label",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Johnnie Walker Black Label",
+            description: "",
+            weight: "40%",
+            price: "14,90 lei"
+          },
+          {
+            name: "Talisker 57 North",
+            description: "",
+            weight: "57%",
+            price: "29,90 lei"
+          }
+        ]
+      },
+      {
+        title: "GIN",
+        items: [
+          {
+            name: "Beefeater",
+            description: "",
+            weight: "40%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Bombay Sapphire",
+            description: "",
+            weight: "40%",
+            price: "14,90 lei"
+          },
+          {
+            name: "Hendrick's",
+            description: "",
+            weight: "44%",
+            price: "19,90 lei"
+          },
+          {
+            name: "Puerto de Indias",
+            description: "",
+            weight: "37,5%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Gordon's",
+            description: "",
+            weight: "37,5%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Tanqueray",
+            description: "",
+            weight: "47,3%",
+            price: "9,90 lei"
+          }
+        ]
+      },
+      {
+        title: "TEQUILA",
+        items: [
+          {
+            name: "Sierra Gold",
+            description: "",
+            weight: "38%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Sierra Silver",
+            description: "",
+            weight: "38%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Olmeca Gold",
+            description: "",
+            weight: "38%",
+            price: "9,90 lei"
+          }
+        ]
+      },
+      {
+        title: "COGNAC",
+        items: [
+          {
+            name: "Alexandrion 5***",
+            description: "",
+            weight: "40%",
+            price: "7,90 lei"
+          },
+          {
+            name: "Jidvei V.S.O.P",
+            description: "",
+            weight: "42%",
+            price: "9,90 lei"
+          },
+          {
+            name: "Miorita 12 ani X.O.",
+            description: "",
+            weight: "40%",
+            price: "11,90 lei"
+          },
+          {
+            name: "Hennessy V.S",
+            description: "",
+            weight: "40%",
+            price: "19,90 lei"
+          },
+          {
+            name: "Reviseur XO",
+            description: "",
+            weight: "40%",
+            price: "44,90 lei"
+          }
+        ]
+      },
+      {
+        title: "COCKTAILS",
+        items: [
+          {
+            name: "Cosmopolitan",
+            description: "",
+            weight: "150 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Mojito",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Margarita",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Sex on the Beach",
+            description: "",
+            weight: "300 ml",
+            price: "24,90 lei"
+          },
+          {
+            name: "Caipirinha",
+            description: "",
+            weight: "300 ml",
+            price: "14,90 lei"
+          },
+          {
+            name: "Tequila Sunrise",
+            description: "",
+            weight: "300 ml",
+            price: "24,90 lei"
+          },
+          {
+            name: "Dolce Dream",
+            description: "",
+            weight: "300 ml",
+            price: "24,90 lei"
+          },
+          {
+            name: "Aperol Spritz",
+            description: "",
+            weight: "400 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Hugo",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Dolce de Cocos",
+            description: "",
+            weight: "250 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Indian Gin",
+            description: "",
+            weight: "300 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Limoncello Spritza",
+            description: "",
+            weight: "400 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Negroni",
+            description: "",
+            weight: "200 ml",
+            price: "19,90 lei"
+          },
+          {
+            name: "Disaronno Sour",
+            description: "",
+            weight: "200 ml",
+            price: "19,90 lei"
           }
         ]
       }

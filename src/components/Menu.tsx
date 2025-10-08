@@ -160,6 +160,12 @@ const MenuItemComponent: React.FC<MenuItemComponentProps> = ({ item, itemIndex }
     rootMargin: '0px 0px -5% 0px'
   });
 
+  // Separate animation hook for pizza images
+  const { elementRef: imageRef, isVisible: imageVisible } = useScrollAnimation({
+    threshold: 0.3,
+    rootMargin: '0px 0px -10% 0px'
+  });
+
   const getAnimationClasses = () => {
     if (!isVisible) {
       return scrollDirection === 'down' 
@@ -213,10 +219,18 @@ const MenuItemComponent: React.FC<MenuItemComponentProps> = ({ item, itemIndex }
       {item.image && (
         <div className="mb-0 overflow-hidden relative">
           <img 
+            ref={imageRef as React.RefObject<HTMLImageElement>}
             src={item.image} 
             alt={item.name}
-            className="w-full h-auto object-contain bg-white"
+            className={`w-full h-auto object-contain bg-white transition-all duration-700 ease-out ${
+              imageVisible 
+                ? 'transform scale-100 opacity-100' 
+                : 'transform scale-80 opacity-80'
+            }`}
             loading="lazy"
+            style={{
+              transitionDelay: `${itemIndex * 100}ms`
+            }}
           />
         </div>
       )}
